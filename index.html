@@ -1,0 +1,98 @@
+
+<!--Challenge- programming logic Developed by Alonso Vargas -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Oracle ONE </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>  
+<header class="header">
+    <h1 class="header-title">Challenge Oracle ONE
+        beginner in programming </h1>
+
+    <p class="header-description">
+        Task developed by <span>Alonso Vargas</span> Text Encryptor with Javascript
+    </p>
+
+</header>
+
+    <section class="figures"> 
+      <h2 class="title-box">Secret Code </h2>
+        <div class="box">
+            <div class="box-header">
+                 
+                <h2>Message</h2>
+            </div>
+            <div class="box-main">
+                <p class="box-main__text">Enter a message to be encrypted, in lowercase letters and without accents.</p>
+                    <br>
+                    <br>
+                    <hr>
+                <input 
+                class="box-main__input" 
+                type="text" 
+                id="input-encriptar"
+                autofocus
+                placeholder="Enter text here...">
+
+                <button  class="box-main__btn" id="encriptar-btn" type="button" name="encriptar-btn" > Encrypt text</button>
+
+                <button  class="box-main__btn" id="desencriptar-btn" type="button" name="desencriptar-btn" > Decrypt text</button>
+
+                <button  class="box-main__btn1" id="paste-btn" type="button" name="paste-btn" ></button>
+                <div id="error_message"></div>
+              
+
+
+
+               
+                                    <br>
+            </div>
+        </div>
+       
+
+        <div class="box">
+            <div class="box-header">
+                <h2>Encrypted Message</h2>
+            </div>
+            <div class="box-main">
+                <p class="box-main__text">The encrypted text is shown here</p>
+                    <br>
+                    <br>
+                    <br>
+                   
+                    <hr>
+
+                    <input class="box-main__input"  type="text" id="answer" name="answer" placeholder="See result here...">
+                <button  class="box-main__btn" id="copyBtn" type="button">Copy</button>
+                <div id="successful_message"></div>
+
+            </div>
+        </div>
+        
+
+        </div>
+        
+    </section>
+
+ 
+
+    
+
+
+
+<footer>
+    2022 &copy; AlonsoDev
+</div>
+</footer>
+
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
